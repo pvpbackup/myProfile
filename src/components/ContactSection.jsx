@@ -160,7 +160,7 @@ const ContactSection = () => {
             </motion.a>
             
             <motion.a
-              href="https://linkedin.com/in/shubhams21"
+              href="https://www.linkedin.com/in/priya-v-palaskar-707595106" 
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -182,7 +182,7 @@ const ContactSection = () => {
         {/* Footer Credit */}
         <div className="mt-8 pt-6 border-t border-white/10">
           <p className="text-center text-sm text-gray-400">
-            Made with <FaHeart className="inline text-red-500 mx-1" /> by Shubham | Website & Mobile App Developer
+            Made with <FaHeart className="inline text-red-500 mx-1" /> by Priya | Website & Mobile App Developer
           </p>
         </div>
       </div>

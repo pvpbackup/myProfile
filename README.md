@@ -1,6 +1,6 @@
-# Shubham's Portfolio Website
+# Priya's Portfolio Website
 
-A modern, responsive portfolio website for Shubham, a Full Stack Web Developer. Built with React.js and Tailwind CSS.
+A modern, responsive portfolio website for Priya, a Full Stack Web Developer. Built with React.js and Tailwind CSS.
 
 ## Features
 
