@@ -17,7 +17,8 @@ const ServicesSection = () => {
         'Progressive Web Applications',
         'SEO Optimization & Performance'
       ],
-      technologies: [FaReact, 'Next.js', 'TypeScript', 'Tailwind CSS'],
+      //technologies: [FaReact, 'Next.js', 'TypeScript', 'Tailwind CSS'],
+      technologies: [FaReact, 'TypeScript'],
       lottieUrl: 'https://assets5.lottiefiles.com/packages/lf20_qp1q7mct.json',
       color: 'from-blue-500 to-cyan-500'
     },

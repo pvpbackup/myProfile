@@ -83,7 +83,7 @@ const HeroSection = () => {
               <motion.a
                 whileHover={{ y: -4, scale: 1.2 }}
                 transition={{ type: 'spring', stiffness: 300 }}
-                href="https://www.linkedin.com/in/priya-v-palaskar-707595106"
+                href="https://www.linkedin.com/in/priya-vijay-palaskar-707595106"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-purple-400 transition-all duration-300"

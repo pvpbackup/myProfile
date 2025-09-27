@@ -160,7 +160,7 @@ const ContactSection = () => {
             </motion.a>
             
             <motion.a
-              href="https://www.linkedin.com/in/priya-v-palaskar-707595106" 
+              href="https://www.linkedin.com/in/priya-vijay-palaskar-707595106"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

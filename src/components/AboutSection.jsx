@@ -1,30 +1,63 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaJs, FaLaptopCode, FaServer } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiPostgresql, SiExpress, SiGraphql, SiVuedotjs, SiFlutter } from 'react-icons/si';
+import {
+  SiTypescript, SiBootstrap, SiTailwindcss, SiMongodb, SiPostgresql, SiExpress, SiGraphql, SiVuedotjs, SiFlutter,
+  SiRedux,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiGit,
+  SiGithub,
+  SiLaravel,
+  SiPhp,
+  SiSonarcloud,
+  SiAndroid,
+  SiNodedotjs,
+  SiPython,
+} from 'react-icons/si';
+
+import { FaTasks, FaProjectDiagram, FaBrain, FaNetworkWired } from "react-icons/fa";
+
 
 const techStack = {
   Web: [
     { name: 'React', icon: FaReact, color: 'text-blue-500' },
-    { name: 'Next.js', icon: SiNextdotjs, color: 'text-black dark:text-white' },
-    { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600' },
+    { name: 'Redux', icon: SiRedux, color: "text-purple-600" },
     { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400' },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-500' },
-    { name: 'Node.js', icon: FaNodeJs, color: 'text-green-600' },
-    { name: 'Express.js', icon: SiExpress, color: 'text-gray-700 dark:text-gray-300' },
-    { name: 'GraphQL', icon: SiGraphql, color: 'text-pink-500' },
-    { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-700' },
-    { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500' },
+    { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600' },
+    { name: "ES6", icon: SiJavascript, color: "text-yellow-400" },
     { name: 'Vue.js', icon: SiVuedotjs, color: 'text-green-400' },
+    { name: "HTML5", icon: SiHtml5, color: "text-orange-600" },
+    { name: "CSS3", icon: SiCss3, color: "text-blue-600" },
+    { name: 'Bootstrap', icon: SiBootstrap, color: 'text-green-400' },
+    { name: 'Node.js', icon: FaNodeJs, color: 'text-green-600' },
+    { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-700' },
+    { name: "Laravel", icon: SiLaravel, color: "text-red-500" },
+    { name: "PHP", icon: SiPhp, color: "text-indigo-600" },
+    { name: "Android", icon: SiAndroid, color: "text-green-600" },
+    { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+    { name: "Python", icon: SiPython, color: "text-yellow-500" },
+
+    { name: "Machine Learning", icon: FaBrain, color: "text-pink-500" },
+    { name: "Artificial Intelligence", icon: FaBrain, color: "text-purple-500" },
+
   ],
   Mobile: [
-    { name: 'React Native', icon: FaReact, color: 'text-blue-400' },
+    { name: 'Android', icon: FaReact, color: 'text-blue-400' },
     { name: 'Flutter', icon: SiFlutter, color: 'text-sky-500' },
-    { name: 'Expo', icon: FaLaptopCode, color: 'text-indigo-400' },
     { name: 'Firebase', icon: FaServer, color: 'text-yellow-600' },
-    { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600' },
+    { name: 'JAVA', icon: FaServer, color: 'text-blue-600' },
     { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400' },
+
+    { name: "Git", icon: SiGit, color: "text-red-600" },
+    { name: "GitHub", icon: SiGithub, color: "text-gray-800 dark:text-white" },
+    { name: "SonarQube", icon: SiSonarcloud, color: "text-blue-500" },
+    { name: "Agile", icon: FaTasks, color: "text-blue-500" },
+    { name: "JIRA", icon: FaProjectDiagram, color: "text-sky-600" }, // closest match
+    { name: "Scrum", icon: FaTasks, color: "text-green-500" },
   ],
+
 };
 
 const floatAnimation = {
@@ -55,8 +88,13 @@ const AboutSection = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              I’m a full-stack developer passionate about creating modern websites and mobile apps.
-              With a strong foundation in both frontend and backend, I love transforming complex ideas into intuitive digital experiences.
+              I am a Technology Lead with over 11 years of extensive experience in
+              front-end and mobile development, specializing in React.js for scalable
+              web applications and Android native development. I have expertise in
+              JavaScript, TypeScript, Node.js, and AWS, with a proven record of
+              optimizing performance and delivering high-quality enterprise
+              applications. My leadership skills enable the mentoring of teams and
+              driving successful project outcomes
             </p>
           </div>
 
@@ -111,7 +149,7 @@ const AboutSection = () => {
               viewport={{ once: true }}
             >
               <h4 className="text-2xl font-semibold mb-6 text-foreground text-center">
-                Mobile Development
+                Mobile Development & Other
               </h4>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                 {techStack.Mobile.map(({ name, icon: Icon, color }, index) => (

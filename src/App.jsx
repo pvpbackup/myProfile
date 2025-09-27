@@ -20,7 +20,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> imp */}
         <ContactSection />
       </motion.main>
 
